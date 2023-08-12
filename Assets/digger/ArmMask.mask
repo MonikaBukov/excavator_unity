@@ -1,0 +1,573 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ArmMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: bottom_base1
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_0
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_1
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_2
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_3
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_4
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_5
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_6
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_7
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_8
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_9
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_10
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_11
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_12
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_13
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_14
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_15
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_16
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_17
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_18
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_19
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_20
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_21
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_22
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_23
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_24
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_25
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_26
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_27
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_28
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_29
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_30
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_31
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_32
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_33
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_34
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_35
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_36
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_37
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_38
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_39
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_40
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_41
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_42
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_43
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_44
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_45
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_46
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_47
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_48
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_49
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_50
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_51
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_52
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_53
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_54
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_55
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_56
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_57
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_58
+    m_Weight: 0
+  - m_Path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_59
+    m_Weight: 0
+  - m_Path: bottom_base1/group18
+    m_Weight: 0
+  - m_Path: bottom_base1/group18/track_holder
+    m_Weight: 0
+  - m_Path: bottom_base1/group18/track_holder1
+    m_Weight: 0
+  - m_Path: bottom_base1/group18/trackholder
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_0
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_1
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_2
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_3
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_4
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_5
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_6
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_7
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_8
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_9
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_10
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_11
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_12
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_13
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_14
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_15
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_16
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_17
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_18
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_19
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_20
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_21
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_22
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_23
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_24
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_25
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_26
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_27
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_28
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_29
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_30
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_31
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/big_wheels
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/big_wheels/pasted__pCylinder1
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/big_wheels/pasted__pCylinder2
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_0
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_1
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_2
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_3
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_4
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_5
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_6
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_7
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_8
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_9
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_10
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_11
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_12
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_13
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_14
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_15
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_16
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_17
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_18
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_19
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_20
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_21
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_22
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_23
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_24
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_25
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_26
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_27
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_28
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_29
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_30
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_31
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_32
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/small_wheels_r
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/small_wheels_r/pasted__pCylinder3
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/small_wheels_r/pasted__pCylinder4
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/small_wheels_r/pasted__pCylinder5
+    m_Weight: 0
+  - m_Path: bottom_base1/tracks/right_track/small_wheels_r/pasted__pCylinder6
+    m_Weight: 0
+  - m_Path: group12
+    m_Weight: 0
+  - m_Path: group12/big_wheels
+    m_Weight: 0
+  - m_Path: group12/big_wheels/pCylinder1
+    m_Weight: 0
+  - m_Path: group12/big_wheels/pCylinder2
+    m_Weight: 0
+  - m_Path: group12/smallwheels
+    m_Weight: 0
+  - m_Path: group12/smallwheels/pCylinder3
+    m_Weight: 0
+  - m_Path: group12/smallwheels/pCylinder4
+    m_Weight: 0
+  - m_Path: group12/smallwheels/pCylinder5
+    m_Weight: 0
+  - m_Path: group12/smallwheels/pCylinder6
+    m_Weight: 0
+  - m_Path: rotation_base
+    m_Weight: 0
+  - m_Path: whole_top
+    m_Weight: 0
+  - m_Path: whole_top/bottom_conveyor
+    m_Weight: 0
+  - m_Path: whole_top/bottom_conveyor/conveyor_part
+    m_Weight: 0
+  - m_Path: whole_top/bottom_conveyor/conveyor_part/conveyor
+    m_Weight: 0
+  - m_Path: whole_top/bottom_conveyor/conveyor_part/conveyor/bottom_conveyor_gear
+    m_Weight: 0
+  - m_Path: whole_top/bottom_conveyor/conveyor_part/conveyor/conveyor_gear
+    m_Weight: 0
+  - m_Path: whole_top/bottom_conveyor/conveyor_part/conveyor/nurbs
+    m_Weight: 0
+  - m_Path: whole_top/bottom_conveyor/conveyor_part/conveyor/nurbs/pasted__nurbsCircle1
+    m_Weight: 0
+  - m_Path: whole_top/bottom_conveyor/conveyor_part/conveyor/nurbs/pasted__nurbsCircle2
+    m_Weight: 0
+  - m_Path: whole_top/bottom_conveyor/cover
+    m_Weight: 0
+  - m_Path: whole_top/bucket_wheel_arm
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/bucket_wheel_rotator
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/ARM
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/base
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/frame_holding_gear
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/PISTOL
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/rotating_gear
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/rotating_gear/gear
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/rotating_gear/gear/cylinder_for_rotating
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/rotating_gear/gear/cylinder_for_rotating/locator1
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/cylinder
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/frame_for_bucketwheel
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/guide
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/kerek_henger
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/pasted__spinning_whee_Shape
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/pCylinder8
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/pCylinder9
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/railing
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/railing/left
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/railing/right
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/gears
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/gears/conveyor_gear
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/gears/middle_gear
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/pasted__nurbs
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/pasted__nurbs/pasted__pasted__nurbsCircle1
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/pasted__nurbs/pasted__pasted__nurbsCircle2
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_0
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_1
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_2
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_3
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_4
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_5
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_6
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_7
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_8
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_9
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_10
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_11
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_12
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_13
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_14
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_15
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_16
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_17
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_18
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_19
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_20
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_21
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_22
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_23
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_24
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_25
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_26
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_27
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_28
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_29
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_30
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_31
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_32
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_33
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_34
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_35
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_36
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_37
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_38
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_39
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_40
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_41
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_42
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_43
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_44
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_45
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_46
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_47
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_48
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_49
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_50
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_51
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_52
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_53
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_54
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_55
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_56
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_57
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_58
+    m_Weight: 1
+  - m_Path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_59
+    m_Weight: 1
+  - m_Path: whole_top/lamps
+    m_Weight: 0
+  - m_Path: whole_top/lamps/lamp
+    m_Weight: 0
+  - m_Path: whole_top/lamps/lamp/pPipe2
+    m_Weight: 0
+  - m_Path: whole_top/lamps/lamp/pSphere1
+    m_Weight: 0
+  - m_Path: whole_top/lamps/lamp1
+    m_Weight: 0
+  - m_Path: whole_top/lamps/lamp1/pPipe2
+    m_Weight: 0
+  - m_Path: whole_top/lamps/lamp1/pSphere1
+    m_Weight: 0
+  - m_Path: whole_top/lamps/spotLight2
+    m_Weight: 0
+  - m_Path: whole_top/lamps/spotLight3
+    m_Weight: 0
+  - m_Path: whole_top/lifting_part_r
+    m_Weight: 1
+  - m_Path: whole_top/lifting_part_r/hengerek
+    m_Weight: 1
+  - m_Path: whole_top/lifting_part_r/hengerek/group20
+    m_Weight: 0
+  - m_Path: whole_top/lifting_part_r/hengerek/group20/pCylinder7
+    m_Weight: 1
+  - m_Path: whole_top/lifting_part_r/hengerek/group21
+    m_Weight: 0
+  - m_Path: whole_top/lifting_part_r/hengerek/group21/pCylinder10
+    m_Weight: 1
+  - m_Path: whole_top/top_base
+    m_Weight: 0
+  - m_Path: whole_top/top_base/bottom_base
+    m_Weight: 0
+  - m_Path: whole_top/top_base/cabin
+    m_Weight: 0
+  - m_Path: whole_top/top_base/cabin/door
+    m_Weight: 0
+  - m_Path: whole_top/top_base/frame
+    m_Weight: 0
+  - m_Path: whole_top/top_base/leftframe
+    m_Weight: 0
+  - m_Path: whole_top/top_base/stairs
+    m_Weight: 0
+  - m_Path: whole_top/top_base/stairs/pCube8
+    m_Weight: 0
+  - m_Path: whole_top/top_base/stairs/pCube9
+    m_Weight: 0

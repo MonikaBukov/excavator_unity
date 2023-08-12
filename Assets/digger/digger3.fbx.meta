@@ -1,0 +1,2350 @@
+fileFormatVersion: 2
+guid: 037aecdf7ebd3224296d35c699b83341
+ModelImporter:
+  serializedVersion: 22103
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: RightTrack
+  - first:
+      74: -4354819935274607022
+    second: LeftTrack
+  - first:
+      74: -3165281224558214438
+    second: WheelSpinning
+  - first:
+      74: 5237116283101885232
+    second: OpenDoor
+  - first:
+      74: -3892947207852506761
+    second: DoorOpened
+  - first:
+      74: 1636237715973613107
+    second: CloseDoor
+  - first:
+      74: 4971431515175795362
+    second: ArmLift
+  - first:
+      74: -1859767301652545586
+    second: ReleaseArm
+  - first:
+      74: 2824793855998742460
+    second: LetDownArm
+  - first:
+      74: 5662402312945526525
+    second: LiftArmBack
+  - first:
+      74: 2070626663597010784
+    second: ArmUp
+  - first:
+      74: 891595130576119675
+    second: ArmMiddle
+  - first:
+      74: 9058426536936478415
+    second: ArmDown
+  externalObjects:
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: diffuse_cube
+    second: {fileID: 8900000, guid: d0d84211d7c38514eb32fe76b9712f8a, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GLASS
+    second: {fileID: 2100000, guid: 53814efc3e8864a4caa4e47ef629f883, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base_metal
+    second: {fileID: 2100000, guid: 0b31daafc4df08e45a214aa090f08b85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: conveyor_texture1
+    second: {fileID: 2100000, guid: 460cc7f87be0e694a84c0a40ba535e73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark_metal
+    second: {fileID: 2100000, guid: a3432ac3de0544f45a956eac9f0b053a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 8e618280d0b80d94e89cf5e34ea13e45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rusty_metal
+    second: {fileID: 2100000, guid: 66244ae0103c57548bd2740712b64483, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standardSurface1
+    second: {fileID: 2100000, guid: 7893b168629ddc641bf23ab0c1397e9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow_rusty
+    second: {fileID: 2100000, guid: c797d32c7721ef14f8d41b59b7e8be61, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Metal_PaintedGun_1K_albedo
+    second: {fileID: 2800000, guid: e694c5304d234364bb7cbc50150ae21b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Metal_PaintedGun_1K_metallic
+    second: {fileID: 2800000, guid: 3cf9b5a07a3750e47aa8686cc0af9b5b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Metal_PaintedGun_1K_normal
+    second: {fileID: 2800000, guid: 30fd3bab49a66ea48b0852a8f0f21aac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Metal_PaintedGun_1K_roughness
+    second: {fileID: 2800000, guid: 6d0705f5808962f4ca8beb0de617f62a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Paint_Rusted_1K_albedo
+    second: {fileID: 2800000, guid: 01ea09daebdd49b4cbc477c2cfeb819b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Paint_Rusted_1K_normal
+    second: {fileID: 2800000, guid: 3100264d2aedac347a2ae744773b9840, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Paint_Rusted_1K_roughness
+    second: {fileID: 2800000, guid: f4c82cbbbea3bcc4091b85aac38278a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Pavement_Tactile6_1K_albedo
+    second: {fileID: 2800000, guid: 875d233599b502b478ab5d2b36339ae7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Pavement_Tactile6_1K_normal
+    second: {fileID: 2800000, guid: 05e0c8b55a9077e4ba394bb932d50ee5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Pavement_Tactile6_1K_roughness
+    second: {fileID: 2800000, guid: d32c2c4be4235fa428f2083d44a454d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Rust_Pitted_1K_albedo
+    second: {fileID: 2800000, guid: d8cbf6d12e184b44b86d17c19777aa06, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Rust_Pitted_1K_metallic
+    second: {fileID: 2800000, guid: 6ec2d25f676ee86488968440b173b641, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Rust_Pitted_1K_normal
+    second: {fileID: 2800000, guid: 0b89b544fd9e8df44bf2966473d87456, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Rust_Pitted_1K_roughness
+    second: {fileID: 2800000, guid: 1a1abf99c8a18a74ea47c7b521a56e4d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_WornMetal_1K_albedo
+    second: {fileID: 2800000, guid: 9a2010d6bb0bf9446b447d1a7f449351, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_WornMetal_1K_metallic
+    second: {fileID: 2800000, guid: 2bdc5d477261a4f4689ecd892e5f4249, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_WornMetal_1K_normal
+    second: {fileID: 2800000, guid: 7960599fb73d46445ac69994398e7773, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_WornMetal_1K_roughness
+    second: {fileID: 2800000, guid: d40ac68014ef1c74a9d1c980abb91a10, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ibl_brdf_lut
+    second: {fileID: 2800000, guid: fdf0fe3e5dac24a4180c1c22016f7692, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 1
+    importConstraints: 1
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: RightTrack
+      takeName: Take 001
+      internalID: 0
+      firstFrame: -1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bottom_base1
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_0
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_1
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_2
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_3
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_4
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_5
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_6
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_7
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_8
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_9
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_10
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_11
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_12
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_13
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_14
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_15
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_16
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_17
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_18
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_19
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_20
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_21
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_22
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_23
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_24
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_25
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_26
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_27
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_28
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_29
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_30
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_31
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_32
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_33
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_34
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_35
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_36
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_37
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_38
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_39
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_40
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_41
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_42
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_43
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_44
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_45
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_46
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_47
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_48
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_49
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_50
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_51
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_52
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_53
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_54
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_55
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_56
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_57
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_58
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_59
+        weight: 0
+      - path: bottom_base1/group18
+        weight: 0
+      - path: bottom_base1/group18/track_holder
+        weight: 0
+      - path: bottom_base1/group18/track_holder1
+        weight: 0
+      - path: bottom_base1/group18/trackholder
+        weight: 0
+      - path: bottom_base1/tracks
+        weight: 0
+      - path: bottom_base1/tracks/left_track
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_0
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_1
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_2
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_3
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_4
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_5
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_6
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_7
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_8
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_9
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_10
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_11
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_12
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_13
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_14
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_15
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_16
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_17
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_18
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_19
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_20
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_21
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_22
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_23
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_24
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_25
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_26
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_27
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_28
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_29
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_30
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_31
+        weight: 0
+      - path: bottom_base1/tracks/right_track
+        weight: 1
+      - path: bottom_base1/tracks/right_track/big_wheels
+        weight: 1
+      - path: bottom_base1/tracks/right_track/big_wheels/pasted__pCylinder1
+        weight: 1
+      - path: bottom_base1/tracks/right_track/big_wheels/pasted__pCylinder2
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_0
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_1
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_2
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_3
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_4
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_5
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_6
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_7
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_8
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_9
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_10
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_11
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_12
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_13
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_14
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_15
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_16
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_17
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_18
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_19
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_20
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_21
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_22
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_23
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_24
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_25
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_26
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_27
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_28
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_29
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_30
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_31
+        weight: 1
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_32
+        weight: 1
+      - path: bottom_base1/tracks/right_track/small_wheels_r
+        weight: 1
+      - path: bottom_base1/tracks/right_track/small_wheels_r/pasted__pCylinder3
+        weight: 1
+      - path: bottom_base1/tracks/right_track/small_wheels_r/pasted__pCylinder4
+        weight: 1
+      - path: bottom_base1/tracks/right_track/small_wheels_r/pasted__pCylinder5
+        weight: 1
+      - path: bottom_base1/tracks/right_track/small_wheels_r/pasted__pCylinder6
+        weight: 1
+      - path: group12
+        weight: 0
+      - path: group12/big_wheels
+        weight: 0
+      - path: group12/big_wheels/pCylinder1
+        weight: 0
+      - path: group12/big_wheels/pCylinder2
+        weight: 0
+      - path: group12/smallwheels
+        weight: 0
+      - path: group12/smallwheels/pCylinder3
+        weight: 0
+      - path: group12/smallwheels/pCylinder4
+        weight: 0
+      - path: group12/smallwheels/pCylinder5
+        weight: 0
+      - path: group12/smallwheels/pCylinder6
+        weight: 0
+      - path: rotation_base
+        weight: 0
+      - path: whole_top
+        weight: 0
+      - path: whole_top/bottom_conveyor
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor/bottom_conveyor_gear
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor/conveyor_gear
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor/nurbs
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor/nurbs/pasted__nurbsCircle1
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor/nurbs/pasted__nurbsCircle2
+        weight: 0
+      - path: whole_top/bottom_conveyor/cover
+        weight: 0
+      - path: whole_top/bucket_wheel_arm
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/ARM
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/base
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/frame_holding_gear
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/PISTOL
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/rotating_gear
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/rotating_gear/gear
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/rotating_gear/gear/cylinder_for_rotating
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/rotating_gear/gear/cylinder_for_rotating/locator1
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/cylinder
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/frame_for_bucketwheel
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/guide
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/kerek_henger
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/pasted__spinning_whee_Shape
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/pCylinder8
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/pCylinder9
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/railing
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/railing/left
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/railing/right
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/gears
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/gears/conveyor_gear
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/gears/middle_gear
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/pasted__nurbs
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/pasted__nurbs/pasted__pasted__nurbsCircle1
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/pasted__nurbs/pasted__pasted__nurbsCircle2
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_0
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_1
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_2
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_3
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_4
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_5
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_6
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_7
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_8
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_9
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_10
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_11
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_12
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_13
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_14
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_15
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_16
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_17
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_18
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_19
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_20
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_21
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_22
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_23
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_24
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_25
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_26
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_27
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_28
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_29
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_30
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_31
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_32
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_33
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_34
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_35
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_36
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_37
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_38
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_39
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_40
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_41
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_42
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_43
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_44
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_45
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_46
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_47
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_48
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_49
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_50
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_51
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_52
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_53
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_54
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_55
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_56
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_57
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_58
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_59
+        weight: 0
+      - path: whole_top/lamps
+        weight: 0
+      - path: whole_top/lamps/lamp
+        weight: 0
+      - path: whole_top/lamps/lamp/pPipe2
+        weight: 0
+      - path: whole_top/lamps/lamp/pSphere1
+        weight: 0
+      - path: whole_top/lamps/lamp1
+        weight: 0
+      - path: whole_top/lamps/lamp1/pPipe2
+        weight: 0
+      - path: whole_top/lamps/lamp1/pSphere1
+        weight: 0
+      - path: whole_top/lamps/spotLight2
+        weight: 0
+      - path: whole_top/lamps/spotLight3
+        weight: 0
+      - path: whole_top/lifting_part_r
+        weight: 0
+      - path: whole_top/lifting_part_r/hengerek
+        weight: 0
+      - path: whole_top/lifting_part_r/hengerek/group20
+        weight: 0
+      - path: whole_top/lifting_part_r/hengerek/group20/pCylinder7
+        weight: 0
+      - path: whole_top/lifting_part_r/hengerek/group21
+        weight: 0
+      - path: whole_top/lifting_part_r/hengerek/group21/pCylinder10
+        weight: 0
+      - path: whole_top/top_base
+        weight: 0
+      - path: whole_top/top_base/bottom_base
+        weight: 0
+      - path: whole_top/top_base/cabin
+        weight: 0
+      - path: whole_top/top_base/cabin/door
+        weight: 0
+      - path: whole_top/top_base/frame
+        weight: 0
+      - path: whole_top/top_base/leftframe
+        weight: 0
+      - path: whole_top/top_base/stairs
+        weight: 0
+      - path: whole_top/top_base/stairs/pCube8
+        weight: 0
+      - path: whole_top/top_base/stairs/pCube9
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: LeftTrack
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 121
+      lastFrame: 242
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bottom_base1
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_0
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_1
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_2
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_3
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_4
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_5
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_6
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_7
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_8
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_9
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_10
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_11
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_12
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_13
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_14
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_15
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_16
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_17
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_18
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_19
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_20
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_21
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_22
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_23
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_24
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_25
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_26
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_27
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_28
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_29
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_30
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_31
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_32
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_33
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_34
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_35
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_36
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_37
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_38
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_39
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_40
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_41
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_42
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_43
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_44
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_45
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_46
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_47
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_48
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_49
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_50
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_51
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_52
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_53
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_54
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_55
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_56
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_57
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_58
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_59
+        weight: 0
+      - path: bottom_base1/group18
+        weight: 0
+      - path: bottom_base1/group18/track_holder
+        weight: 0
+      - path: bottom_base1/group18/track_holder1
+        weight: 0
+      - path: bottom_base1/group18/trackholder
+        weight: 0
+      - path: bottom_base1/tracks
+        weight: 0
+      - path: bottom_base1/tracks/left_track
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_0
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_1
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_2
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_3
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_4
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_5
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_6
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_7
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_8
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_9
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_10
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_11
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_12
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_13
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_14
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_15
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_16
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_17
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_18
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_19
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_20
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_21
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_22
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_23
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_24
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_25
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_26
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_27
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_28
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_29
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_30
+        weight: 1
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_31
+        weight: 1
+      - path: bottom_base1/tracks/right_track
+        weight: 0
+      - path: bottom_base1/tracks/right_track/big_wheels
+        weight: 0
+      - path: bottom_base1/tracks/right_track/big_wheels/pasted__pCylinder1
+        weight: 0
+      - path: bottom_base1/tracks/right_track/big_wheels/pasted__pCylinder2
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_0
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_1
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_2
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_3
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_4
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_5
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_6
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_7
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_8
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_9
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_10
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_11
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_12
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_13
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_14
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_15
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_16
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_17
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_18
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_19
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_20
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_21
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_22
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_23
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_24
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_25
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_26
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_27
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_28
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_29
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_30
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_31
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_32
+        weight: 0
+      - path: bottom_base1/tracks/right_track/small_wheels_r
+        weight: 0
+      - path: bottom_base1/tracks/right_track/small_wheels_r/pasted__pCylinder3
+        weight: 0
+      - path: bottom_base1/tracks/right_track/small_wheels_r/pasted__pCylinder4
+        weight: 0
+      - path: bottom_base1/tracks/right_track/small_wheels_r/pasted__pCylinder5
+        weight: 0
+      - path: bottom_base1/tracks/right_track/small_wheels_r/pasted__pCylinder6
+        weight: 0
+      - path: group12
+        weight: 1
+      - path: group12/big_wheels
+        weight: 1
+      - path: group12/big_wheels/pCylinder1
+        weight: 1
+      - path: group12/big_wheels/pCylinder2
+        weight: 1
+      - path: group12/smallwheels
+        weight: 1
+      - path: group12/smallwheels/pCylinder3
+        weight: 1
+      - path: group12/smallwheels/pCylinder4
+        weight: 1
+      - path: group12/smallwheels/pCylinder5
+        weight: 1
+      - path: group12/smallwheels/pCylinder6
+        weight: 1
+      - path: rotation_base
+        weight: 0
+      - path: whole_top
+        weight: 0
+      - path: whole_top/bottom_conveyor
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor/bottom_conveyor_gear
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor/conveyor_gear
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor/nurbs
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor/nurbs/pasted__nurbsCircle1
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor/nurbs/pasted__nurbsCircle2
+        weight: 0
+      - path: whole_top/bottom_conveyor/cover
+        weight: 0
+      - path: whole_top/bucket_wheel_arm
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/ARM
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/base
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/frame_holding_gear
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/PISTOL
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/rotating_gear
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/rotating_gear/gear
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/rotating_gear/gear/cylinder_for_rotating
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/rotating_gear/gear/cylinder_for_rotating/locator1
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/cylinder
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/frame_for_bucketwheel
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/guide
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/kerek_henger
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/pasted__spinning_whee_Shape
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/pCylinder8
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/pCylinder9
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/railing
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/railing/left
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/railing/right
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/gears
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/gears/conveyor_gear
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/gears/middle_gear
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/pasted__nurbs
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/pasted__nurbs/pasted__pasted__nurbsCircle1
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/pasted__nurbs/pasted__pasted__nurbsCircle2
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_0
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_1
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_2
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_3
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_4
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_5
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_6
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_7
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_8
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_9
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_10
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_11
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_12
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_13
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_14
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_15
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_16
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_17
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_18
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_19
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_20
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_21
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_22
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_23
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_24
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_25
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_26
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_27
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_28
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_29
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_30
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_31
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_32
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_33
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_34
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_35
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_36
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_37
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_38
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_39
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_40
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_41
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_42
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_43
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_44
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_45
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_46
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_47
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_48
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_49
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_50
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_51
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_52
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_53
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_54
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_55
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_56
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_57
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_58
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_59
+        weight: 0
+      - path: whole_top/lamps
+        weight: 0
+      - path: whole_top/lamps/lamp
+        weight: 0
+      - path: whole_top/lamps/lamp/pPipe2
+        weight: 0
+      - path: whole_top/lamps/lamp/pSphere1
+        weight: 0
+      - path: whole_top/lamps/lamp1
+        weight: 0
+      - path: whole_top/lamps/lamp1/pPipe2
+        weight: 0
+      - path: whole_top/lamps/lamp1/pSphere1
+        weight: 0
+      - path: whole_top/lamps/spotLight2
+        weight: 0
+      - path: whole_top/lamps/spotLight3
+        weight: 0
+      - path: whole_top/lifting_part_r
+        weight: 0
+      - path: whole_top/lifting_part_r/hengerek
+        weight: 0
+      - path: whole_top/lifting_part_r/hengerek/group20
+        weight: 0
+      - path: whole_top/lifting_part_r/hengerek/group20/pCylinder7
+        weight: 0
+      - path: whole_top/lifting_part_r/hengerek/group21
+        weight: 0
+      - path: whole_top/lifting_part_r/hengerek/group21/pCylinder10
+        weight: 0
+      - path: whole_top/top_base
+        weight: 0
+      - path: whole_top/top_base/bottom_base
+        weight: 0
+      - path: whole_top/top_base/cabin
+        weight: 0
+      - path: whole_top/top_base/cabin/door
+        weight: 0
+      - path: whole_top/top_base/frame
+        weight: 0
+      - path: whole_top/top_base/leftframe
+        weight: 0
+      - path: whole_top/top_base/stairs
+        weight: 0
+      - path: whole_top/top_base/stairs/pCube8
+        weight: 0
+      - path: whole_top/top_base/stairs/pCube9
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WheelSpinning
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 244
+      lastFrame: 539
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bottom_base1
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_0
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_1
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_2
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_3
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_4
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_5
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_6
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_7
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_8
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_9
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_10
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_11
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_12
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_13
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_14
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_15
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_16
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_17
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_18
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_19
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_20
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_21
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_22
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_23
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_24
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_25
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_26
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_27
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_28
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_29
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_30
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_31
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_32
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_33
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_34
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_35
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_36
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_37
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_38
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_39
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_40
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_41
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_42
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_43
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_44
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_45
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_46
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_47
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_48
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_49
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_50
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_51
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_52
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_53
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_54
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_55
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_56
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_57
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_58
+        weight: 0
+      - path: bottom_base1/bottomConveyorMash_Instancer_objects/bottom_conveyor_partShape_bottomConveyorMash_Instancer_59
+        weight: 0
+      - path: bottom_base1/group18
+        weight: 0
+      - path: bottom_base1/group18/track_holder
+        weight: 0
+      - path: bottom_base1/group18/track_holder1
+        weight: 0
+      - path: bottom_base1/group18/trackholder
+        weight: 0
+      - path: bottom_base1/tracks
+        weight: 0
+      - path: bottom_base1/tracks/left_track
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_0
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_1
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_2
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_3
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_4
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_5
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_6
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_7
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_8
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_9
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_10
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_11
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_12
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_13
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_14
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_15
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_16
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_17
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_18
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_19
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_20
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_21
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_22
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_23
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_24
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_25
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_26
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_27
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_28
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_29
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_30
+        weight: 0
+      - path: bottom_base1/tracks/left_track/leftTrackMash_Instancer_objects/track_part_leftShape_leftTrackMash_Instancer_31
+        weight: 0
+      - path: bottom_base1/tracks/right_track
+        weight: 0
+      - path: bottom_base1/tracks/right_track/big_wheels
+        weight: 0
+      - path: bottom_base1/tracks/right_track/big_wheels/pasted__pCylinder1
+        weight: 0
+      - path: bottom_base1/tracks/right_track/big_wheels/pasted__pCylinder2
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_0
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_1
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_2
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_3
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_4
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_5
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_6
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_7
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_8
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_9
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_10
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_11
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_12
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_13
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_14
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_15
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_16
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_17
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_18
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_19
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_20
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_21
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_22
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_23
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_24
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_25
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_26
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_27
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_28
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_29
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_30
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_31
+        weight: 0
+      - path: bottom_base1/tracks/right_track/rightTrackMash_Instancer_objects/track_partrightShape_rightTrackMash_Instancer_32
+        weight: 0
+      - path: bottom_base1/tracks/right_track/small_wheels_r
+        weight: 0
+      - path: bottom_base1/tracks/right_track/small_wheels_r/pasted__pCylinder3
+        weight: 0
+      - path: bottom_base1/tracks/right_track/small_wheels_r/pasted__pCylinder4
+        weight: 0
+      - path: bottom_base1/tracks/right_track/small_wheels_r/pasted__pCylinder5
+        weight: 0
+      - path: bottom_base1/tracks/right_track/small_wheels_r/pasted__pCylinder6
+        weight: 0
+      - path: group12
+        weight: 0
+      - path: group12/big_wheels
+        weight: 0
+      - path: group12/big_wheels/pCylinder1
+        weight: 0
+      - path: group12/big_wheels/pCylinder2
+        weight: 0
+      - path: group12/smallwheels
+        weight: 0
+      - path: group12/smallwheels/pCylinder3
+        weight: 0
+      - path: group12/smallwheels/pCylinder4
+        weight: 0
+      - path: group12/smallwheels/pCylinder5
+        weight: 0
+      - path: group12/smallwheels/pCylinder6
+        weight: 0
+      - path: rotation_base
+        weight: 0
+      - path: whole_top
+        weight: 0
+      - path: whole_top/bottom_conveyor
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor/bottom_conveyor_gear
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor/conveyor_gear
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor/nurbs
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor/nurbs/pasted__nurbsCircle1
+        weight: 0
+      - path: whole_top/bottom_conveyor/conveyor_part/conveyor/nurbs/pasted__nurbsCircle2
+        weight: 0
+      - path: whole_top/bottom_conveyor/cover
+        weight: 0
+      - path: whole_top/bucket_wheel_arm
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator
+        weight: 1
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/ARM
+        weight: 1
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/base
+        weight: 1
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/frame_holding_gear
+        weight: 1
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/PISTOL
+        weight: 1
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/rotating_gear
+        weight: 1
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/rotating_gear/gear
+        weight: 1
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/rotating_gear/gear/cylinder_for_rotating
+        weight: 1
+      - path: whole_top/bucket_wheel_arm/bucket_wheel_rotator/rotating_gear/gear/cylinder_for_rotating/locator1
+        weight: 1
+      - path: whole_top/bucket_wheel_arm/cylinder
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/frame_for_bucketwheel
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/guide
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/kerek_henger
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/pasted__spinning_whee_Shape
+        weight: 1
+      - path: whole_top/bucket_wheel_arm/pCylinder8
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/pCylinder9
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/railing
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/railing/left
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/railing/right
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/gears
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/gears/conveyor_gear
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/gears/middle_gear
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/pasted__nurbs
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/pasted__nurbs/pasted__pasted__nurbsCircle1
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/pasted__nurbs/pasted__pasted__nurbsCircle2
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_0
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_1
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_2
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_3
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_4
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_5
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_6
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_7
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_8
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_9
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_10
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_11
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_12
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_13
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_14
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_15
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_16
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_17
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_18
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_19
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_20
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_21
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_22
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_23
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_24
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_25
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_26
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_27
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_28
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_29
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_30
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_31
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_32
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_33
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_34
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_35
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_36
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_37
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_38
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_39
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_40
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_41
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_42
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_43
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_44
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_45
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_46
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_47
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_48
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_49
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_50
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_51
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_52
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_53
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_54
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_55
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_56
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_57
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_58
+        weight: 0
+      - path: whole_top/bucket_wheel_arm/top_conveyor/topConveyorMash_Instancer_objects/top_conveyor_partShape_topConveyorMash_Instancer_59
+        weight: 0
+      - path: whole_top/lamps
+        weight: 0
+      - path: whole_top/lamps/lamp
+        weight: 0
+      - path: whole_top/lamps/lamp/pPipe2
+        weight: 0
+      - path: whole_top/lamps/lamp/pSphere1
+        weight: 0
+      - path: whole_top/lamps/lamp1
+        weight: 0
+      - path: whole_top/lamps/lamp1/pPipe2
+        weight: 0
+      - path: whole_top/lamps/lamp1/pSphere1
+        weight: 0
+      - path: whole_top/lamps/spotLight2
+        weight: 0
+      - path: whole_top/lamps/spotLight3
+        weight: 0
+      - path: whole_top/lifting_part_r
+        weight: 0
+      - path: whole_top/lifting_part_r/hengerek
+        weight: 0
+      - path: whole_top/lifting_part_r/hengerek/group20
+        weight: 0
+      - path: whole_top/lifting_part_r/hengerek/group20/pCylinder7
+        weight: 0
+      - path: whole_top/lifting_part_r/hengerek/group21
+        weight: 0
+      - path: whole_top/lifting_part_r/hengerek/group21/pCylinder10
+        weight: 0
+      - path: whole_top/top_base
+        weight: 0
+      - path: whole_top/top_base/bottom_base
+        weight: 0
+      - path: whole_top/top_base/cabin
+        weight: 0
+      - path: whole_top/top_base/cabin/door
+        weight: 0
+      - path: whole_top/top_base/frame
+        weight: 0
+      - path: whole_top/top_base/leftframe
+        weight: 0
+      - path: whole_top/top_base/stairs
+        weight: 0
+      - path: whole_top/top_base/stairs/pCube8
+        weight: 0
+      - path: whole_top/top_base/stairs/pCube9
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: OpenDoor
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 539
+      lastFrame: 560
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: DoorOpened
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 560
+      lastFrame: 560
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CloseDoor
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 560
+      lastFrame: 565
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ArmLift
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 580
+      lastFrame: 600
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ReleaseArm
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 600
+      lastFrame: 630
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: LetDownArm
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 630
+      lastFrame: 660
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: LiftArmBack
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 660
+      lastFrame: 690
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ArmUp
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 600
+      lastFrame: 600
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ArmMiddle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 630
+      lastFrame: 630
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ArmDown
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 660
+      lastFrame: 660
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 1
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
