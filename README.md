@@ -7,7 +7,7 @@ Interactive Excavator Project: Explore an interactive simulation featuring a rea
 - Movement: 	Excavator using WASD keys: W (Forward), S (Back), A (Turn Left), D (Turn Right)
 - Avatar controls and the using WASD keys: W (Forward), S (Back), A (Run Left), D (Run Right)
 - Mouse(Rotating)
-- Interacting:	You are expected to be only able to control one game object at a time so toggling between the two is required using the E key
+- Interacting: toggling between the two is  using the E key
 - Excavator wheel:	Use number key (1) to spin up (turn on) the excavator wheel and number key (2) to spin down (turn off) the excavator wheel.
 - Arm Rotation Control: 	Number key (3) to pivot left and number key (4) to pivot right.
 - Excavator Arm	Use number key (5) to move up the excavator arm and number key (6) to move down.
